@@ -2348,7 +2348,7 @@
   },
   "ownerName": "Google",
   "description": "The Firebase Management API enables programmatic setup and management of Firebase projects, including a project's Firebase resources and Firebase apps.",
-"kind": "discovery#restDescription 
+"kind": "discovery#restDescription", 
 "icons": {
     "x16": "http://www.google.com/images/icons/product/search-16.gif",
     "x32": "http://www.google.com/images/icons/product/search-32.gif"

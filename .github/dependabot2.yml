@@ -9,3 +9,22 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "weekly"
+      
+version: 2
+updates:
+- package-ecosystem: gomod
+  directory: /
+  schedule:
+    interval: weekly
+- package-ecosystem: jqmod
+  directory: scrape
+  schedule:
+    interval: weekly
+- package-ecosystem: ciolmod
+  directory: tools
+  schedule:
+    interval: weekly
+- package-ecosystem: github-actions
+  directory: /
+  schedule:
+    interval: weekly
